@@ -12,10 +12,10 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/landing_page_call_center" element={<Home/>}/>
-          <Route path="/quienes-somos" element={<WhoWeUs/>}/>
-          <Route path="/seguridad-legal" element={<LegalSecurity/>}/>
-          <Route path="/contacto" element={<Contact/>}/>
+          <Route path="/landing_page_call_center/" element={<Home/>}/>
+          <Route path="/landing_page_call_center/quienes-somos" element={<WhoWeUs/>}/>
+          <Route path="/landing_page_call_center/seguridad-legal" element={<LegalSecurity/>}/>
+          <Route path="/landing_page_call_center/contacto" element={<Contact/>}/>
         </Routes>
         <Footer />
       </Router>
