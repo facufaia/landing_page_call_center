@@ -3,20 +3,19 @@ import ContactUs from "../components/contact_us"
 import Bar from "../components/bar"
 import {BsArrowDown} from "react-icons/bs"
 
-
 function LegalSecurity(){
     return(
         <main className="flex flex-col">
-            <section className="h-screen background" style={{backgroundImage: "url('https://img.freepik.com/foto-gratis/recortar-escritura-hombre-elegante_23-2147717378.jpg?w=826&t=st=1677807447~exp=1677808047~hmac=2affa29c9de0fff585109a6786e28a280548cd23ce5deb7b3deac598d71e3100')"}}>
-                <div className="z-10 h-full relative flex justify-end w-full text-center flex-col text-sm items-center text-white p-4">
-                    <h1 className="text-4xl font-bold">
+            <section className="h-screen bg-no-repeat background bg-cover bg-top" style={{backgroundImage: "url('https://img.freepik.com/foto-gratis/recortar-escritura-hombre-elegante_23-2147717378.jpg?w=826&t=st=1677807447~exp=1677808047~hmac=2affa29c9de0fff585109a6786e28a280548cd23ce5deb7b3deac598d71e3100')"}}>
+                <div className="z-10 h-full relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
+                    <h1 className="text-5xl font-bold min-[380px]:text-6xl">
                         Trabajo seguro y con<br/>garantía
                     </h1>
-                    <p className="m-5 mb-10">
+                    <p className="m-5 mb-10 lg:text-2xl lg:w-max">
                         La eliminación de sus deudas caducas se<br/>encuentra <b>GARANTIZADA</b> por <b>LEY</b> (La ley de Protección de Datos<br/>Personales a usted le ampara y le favorece).
                     </p>
                     <ContactUs />
-                    <BsArrowDown className="text-3xl mt-10"/>
+                    <BsArrowDown className="text-4xl min-[380px]:text-6xl absolute bottom-4"/>
                 </div>
             </section>
             <section className="mt-16 mx-32 mb-12 flex gap-7">

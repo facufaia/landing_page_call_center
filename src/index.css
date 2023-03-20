@@ -22,5 +22,5 @@
 .active{
     color: rgba(134,0,0,1);
     border-bottom: 2px solid rgba(134,0,0,1);
-    padding-bottom: 7px;
+    padding-bottom: 2vh;
 }

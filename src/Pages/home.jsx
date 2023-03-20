@@ -44,23 +44,23 @@ function Home(){
         <main className="w-full">
             <section className="h-screen bg-no-repeat background bg-cover bg-top" style={{backgroundImage: "url('https://img.freepik.com/foto-gratis/futuros-padres-haciendo-compras-online-bebe_329181-3249.jpg?w=826&t=st=1677401165~exp=1677401765~hmac=d9475ac3fc8cf61b42e7ecca3ca3fdf28b42920ef1e4a21322850c8ed0b555a1')"}}>
                 <div ref={imageText} className="z-10 h-full relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
-                    <h1 className="text-5xl font-bold min-[380px]:text-6xl lg:text-8xl">Viví libre de deudas</h1>
-                    <p className="m-10 text-xl min-[380px]:text-2xl lg:text-4xl lg:mx-36">Salí hoy de las principales centrales de riesgo crediticio del país.
+                    <h1 className="text-5xl font-bold min-[380px]:text-6xl">Viví libre de deudas</h1>
+                    <p className="m-10 text-xl min-[380px]:text-2xl lg:mx-56">Salí hoy de las principales centrales de riesgo crediticio del país.
                     Eliminamos tu nombre en forma rápida y segura, en un trámite online.
                     Volvé a disfrutar de préstamos y tarjetas.</p>
                     <div className="flex flex-col items-center gap-8 lg:flex-row">
                         <ContactUs />
-                        <button><a className="border-white border-solid border-2 py-1 tracking-wider px-2 duration-500 hover:bg-white hover:text-black lg:text-4xl">BAJA DE SERVICIO</a></button>
+                        <button><a className="border-white border-solid border-2 py-1 tracking-wider px-2 duration-500 hover:bg-white hover:text-black">BAJA DE SERVICIO</a></button>
                     </div>
                     <BsArrowDown className="text-4xl min-[380px]:text-6xl absolute bottom-4"/>
                 </div>
             </section>
             <section className="flex-col flex gap-14 mx-14 my-10 lg:my-16 lg:mb-20 lg:gap-24">
-                <div className="flex flex-wrap gap-8 mt-6">
+                <div className="flex flex-wrap gap-8 mt-6 lg:mx-20">
                     <h2 className="text-3xl sm:w-3/6 lg:text-4xl">Brindamos soluciones a nuestros clientes en <b>toda la Rep. Argentina</b></h2>
                     <p className="text-xl text-gray-500 sm:w-2/6">​Nuestro <b>equipo especializado</b> se encarga de <b>eliminar en forma definitiva todo registro de deudas de las bases de datos de informe de riesgo</b> crediticio haciendo valer las prerrogativas de la Ley de Protección de los Datos Personales (Ley Nº 25.326).</p>
                 </div>
-                <div className="flex flex-wrap justify-center gap-7 text-center lg:gap-16">
+                <div className="flex flex-wrap justify-center gap-7 text-center lg:gap-12 lg:mt-5 lg:mb-10">
                     <div ref={item1} className="flex flex-col items-center gap-2 lg:w-3/12">
                         <RxMagnifyingGlass className="text-7xl text-red-800"/>
                         <h3 className="text-2xl">Analizamos tu caso</h3>
