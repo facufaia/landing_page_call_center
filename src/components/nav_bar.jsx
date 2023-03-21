@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import logo from "../assets/logo"
+import logo from "../assets/logo.png"
 import {GiHamburgerMenu} from "react-icons/gi"
 import {useRef, useState} from "react"
 import {RxCross1} from "react-icons/rx"
@@ -26,10 +26,10 @@ function NavBar(){
             </div>
             <ul ref={menu} className={`${clicked ? "top-0" : "-top-full"} fixed flex flex-col gap-7 bg-white w-full text-gray-700 h-screen text-2xl justify-center items-center -translate-x-2 bg-opacity-95 text-center z-30 transition-all ease-linear duration-500
             sm:flex-row sm:text-lg sm:relative sm:h-min`}>
-                <li className="w-min h-min block"><NavLink activeclassname="active" to="/landing_page_call_center/">HOME</NavLink></li>
-                <li className="w-maxs h-min"><NavLink to="/landing_page_call_center/quienes-somos">QUIENES SOMOS</NavLink></li>
-                <li className="w-max h-min"><NavLink to="/landing_page_call_center/seguridad-legal">SEGURIDAD LEGAL</NavLink></li>
-                <li className="w-min h-min"><NavLink to="/landing_page_call_center/contacto">CONTACTO</NavLink></li>
+                <li className="w-min h-min block"><NavLink activeclassname="active" to="/landing_page_call_center/" onClick={handleClick}>HOME</NavLink></li>
+                <li className="w-maxs h-min"><NavLink to="/landing_page_call_center/quienes-somos" onClick={handleClick}>QUIENES SOMOS</NavLink></li>
+                <li className="w-max h-min"><NavLink to="/landing_page_call_center/seguridad-legal" onClick={handleClick}>SEGURIDAD LEGAL</NavLink></li>
+                <li className="w-min h-min"><NavLink to="/landing_page_call_center/contacto" onClick={handleClick}>CONTACTO</NavLink></li>
             </ul>
         </nav>
     )

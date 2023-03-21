@@ -7,7 +7,7 @@ function Contact(){
     return(
         <main>
             <section className="h-screen bg-no-repeat background bg-cover bg-top" style={{backgroundImage: "url('https://img.freepik.com/foto-gratis/feliz-pareja-mostrando-tarjeta-fidelidad_23-2148303811.jpg?w=826&t=st=1677810105~exp=1677810705~hmac=871d119103e64c598378b10124546690ef2ade59e1c3b49cd3816573c9653656')"}}>
-            <div className="z-10 h-full relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
+            <div className="z-10 h-screen relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
                 <h1 className="text-4xl font-bold min-[380px]:text-6xl">
                     Defendemos sus derechos
                 </h1>

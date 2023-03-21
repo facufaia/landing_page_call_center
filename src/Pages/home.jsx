@@ -43,7 +43,7 @@ function Home(){
     return(
         <main className="w-full">
             <section className="h-screen bg-no-repeat background bg-cover bg-top" style={{backgroundImage: "url('https://img.freepik.com/foto-gratis/futuros-padres-haciendo-compras-online-bebe_329181-3249.jpg?w=826&t=st=1677401165~exp=1677401765~hmac=d9475ac3fc8cf61b42e7ecca3ca3fdf28b42920ef1e4a21322850c8ed0b555a1')"}}>
-                <div ref={imageText} className="z-10 h-full relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
+                <div ref={imageText} className="z-10 h-screen relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
                     <h1 className="text-5xl font-bold min-[380px]:text-6xl">Viví libre de deudas</h1>
                     <p className="m-10 text-xl min-[380px]:text-2xl lg:mx-56">Salí hoy de las principales centrales de riesgo crediticio del país.
                     Eliminamos tu nombre en forma rápida y segura, en un trámite online.

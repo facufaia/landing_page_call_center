@@ -1,4 +1,4 @@
-import NavBar from "./components/nav_bar/nav_bar"
+import NavBar from "./components/nav_bar"
 import Footer from "./components/footer"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from "./Pages/home"

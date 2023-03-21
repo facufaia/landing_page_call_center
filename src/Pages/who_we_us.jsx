@@ -7,7 +7,7 @@ function WhoWeUs(){
     return(
         <main className="flex flex-col">
             <section className="h-screen bg-no-repeat background bg-cover bg-top" style={{backgroundImage: "url('https://img.freepik.com/foto-gratis/sonrisa-negocios-alto-nivel-reunion-equipo_1262-2323.jpg?w=826&t=st=1677800006~exp=1677800606~hmac=474f8e6b9e23d7501cd42a701287a01ff20637ea39bc240d3ecca645b0933641')"}}>
-                <div className="z-10 h-full relative flex w-full text-center flex-col text-sm items-center gap-2 text-white p-5 justify-center lg:gap-12">
+                <div className="z-10 h-screen relative flex w-full text-center flex-col text-sm items-center gap-2 text-white p-5 justify-center lg:gap-12">
                     <h1 className="text-5xl font-bold lg:text-6xl">Conocé nuestras oficinas</h1>
                     <p className="m-5 mb-10 text-2xl lg:text-2xl lg:w-1/3">
                         Somos un equipo especializado con más de 30 años de experiencia.

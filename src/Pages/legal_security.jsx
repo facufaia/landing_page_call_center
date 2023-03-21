@@ -7,7 +7,7 @@ function LegalSecurity(){
     return(
         <main className="flex flex-col">
             <section className="h-screen bg-no-repeat background bg-cover bg-top" style={{backgroundImage: "url('https://img.freepik.com/foto-gratis/recortar-escritura-hombre-elegante_23-2147717378.jpg?w=826&t=st=1677807447~exp=1677808047~hmac=2affa29c9de0fff585109a6786e28a280548cd23ce5deb7b3deac598d71e3100')"}}>
-                <div className="z-10 h-full relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
+                <div className="z-10 h-screen relative flex justify-center w-full text-center flex-col text-sm items-center px-8 text-white lg:gap-12">
                     <h1 className="text-5xl font-bold min-[380px]:text-6xl">
                         Trabajo seguro y con<br/>garantía
                     </h1>
