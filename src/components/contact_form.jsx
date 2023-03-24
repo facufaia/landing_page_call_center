@@ -1,6 +1,14 @@
+import useIntersection from "../components/function"
+
 function ContactForm(){
+
+    const [elementRef, isIntersecting] = useIntersection({
+        threshold: .1,
+    })
+
     return(
-        <form className="bg-gray-100 flex flex-wrap justify-center w-full gap-8 px-14 sm:px-20 py-14 lg:py-28 lg:gap-16">
+        
+        <form ref={elementRef} className={`bg-gray-100 flex flex-wrap justify-center w-full gap-8 px-14 sm:px-20 py-14 lg:py-28 lg:gap-16 opacity-0 ${isIntersecting ? "animate__animated animate__fadeIn" : ""}`}>
             <div className="flex flex-col w-full sm:w-2/5 gap-2">
                 <label className="text-lg">Nombre</label>
                 <input className="text-lg p-0.5 border-solid border-gray-400 border" type="text" placeholder="Guillermo Pedro"/>
