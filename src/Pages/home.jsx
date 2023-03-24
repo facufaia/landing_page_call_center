@@ -44,7 +44,7 @@ function Home(){
                 </div>
             </section>
             <section className="flex-col flex gap-14 mx-14 my-10 lg:my-16 lg:mb-20 lg:gap-24">
-                <div ref={elementRef} className={`flex flex-wrap gap-8 mt-6 lg:mx-20 opacity-0 ${isIntersecting ? "animate_animated animate_fadeIn" : ""}`}>
+                <div ref={elementRef} className={`flex flex-wrap gap-8 mt-6 lg:mx-20 opacity-0 ${isIntersecting ? "animate__animated animate__fadeIn" : ""}`}>
                     <h2 className={"text-3xl sm:w-3/6 lg:text-4xl"}>Brindamos soluciones a nuestros clientes en <b>toda la Rep. Argentina</b></h2>
                     <p className="text-xl text-gray-500 sm:w-2/6">​Nuestro <b>equipo especializado</b> se encarga de <b>eliminar en forma definitiva todo registro de deudas de las bases de datos de informe de riesgo</b> crediticio haciendo valer las prerrogativas de la Ley de Protección de los Datos Personales (Ley Nº 25.326).</p>
                 </div>
