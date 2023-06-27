@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import logo from "../assets/logo.png"
+import logo from "/logo.png"
 import {GiHamburgerMenu} from "react-icons/gi"
 import {useRef, useState} from "react"
 import {RxCross1} from "react-icons/rx"
